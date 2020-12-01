@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import 'mout_variables';
+@import 'custom-buttons';
+@import 'mout-forms';
+@import 'mout-dropdown';
+@import 'select-2';
+@import 'project-card';
+@import 'client-card';
+@import 'contact-card';
+@import 'summernote';
+@import 'addmedias';
+@import 'services';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'layout-backoffice';
+@import 'layout-login-register';
+@import 'layout-pub';
+@import 'client';
