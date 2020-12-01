@@ -20,6 +20,7 @@ class Shop extends Model
         'website',
         'description',
         'image',
+        'img_manager',
         'infrontof'
     ];
 

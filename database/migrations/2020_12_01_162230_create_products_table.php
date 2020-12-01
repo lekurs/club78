@@ -17,6 +17,7 @@ class CreateProductsTable extends Migration
             $table->increments('id');
             $table->string('label', '255');
             $table->text('description');
+            $table->string('slug', '255');
             $table->timestamps();
             $table->unsignedInteger('shop_id');
 

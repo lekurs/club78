@@ -31,8 +31,9 @@ class StoreShop extends FormRequest
             'shop-instagram' => 'max:255',
             'shop-facebook' => 'max:255',
             'shop-website' => 'max:255',
-            'shop-image' => 'max:255',
-            'shop-infrontof' => ''
+            'shop-image' => 'mimes:jpeg,bmp,png',
+            'shop-img-manager' => 'mimes:jpeg,png',
+            'shop-infrontof' => 'boolean'
         ];
     }
 }

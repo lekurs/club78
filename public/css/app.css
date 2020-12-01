@@ -12178,6 +12178,10 @@ div.hidden {
   display: none;
 }
 
+.background-admin-content {
+  background-color: #fff;
+}
+
 div.container-fluid,
 div.container-sm,
 div.container-md,
