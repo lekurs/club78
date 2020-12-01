@@ -18,7 +18,9 @@ const mix = require('laravel-mix');
 //     require('autoprefixer'),
 // ]);
 
-// mix.sass('resources/sass/app.scss', 'public/css');
 
+
+// mix.sass('resources/sass/app.scss', 'public/css');
+// mix
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');

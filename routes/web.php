@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Admin\AdminController;
+use App\UI\Action\Admin\HomeAdminAction;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,7 +23,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 Route::group(['prefix' => 'admin'], function () {
-   Route::get('/', \App\UI\Action\Admin\HomeAdminAction::class)->name('admin');
+   Route::get('/', HomeAdminAction::class)->name('admin');
 });
 
 require __DIR__.'/auth.php';
